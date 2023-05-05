@@ -12,14 +12,13 @@ void reverseArray(vector<int> &arr , int m)
     
 }
 //striver
+#include <bits/stdc++.h>
+using namespace std;
 void reverse(int i,int arr[],int n){
     if(i>=n/2)return;
     swap(arr[i],arr[n-i-1]);
     return reverse(i+1,arr,n);
 }
-#include <bits/stdc++.h>
-using namespace std;
-
 int main(){
     int n;
     cin>>n;
