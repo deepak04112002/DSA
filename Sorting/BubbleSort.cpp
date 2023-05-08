@@ -56,6 +56,8 @@ int main()
 }
 //Time Complexity is O(n^2) for worst,average case
 //best case O(N);
+//both Recursive and iterative method take same time to complete but iterative
+//take less memory.
 
 
 //Usig Recursion
