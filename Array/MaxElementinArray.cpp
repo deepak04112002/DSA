@@ -13,9 +13,6 @@ public:
         return maxi;
     }
 };
-
-
-//{ Driver Code Starts.
 int main()
 {
     int t;
