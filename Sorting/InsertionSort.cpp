@@ -43,7 +43,7 @@ int main()
     return 0;
 }
 //Time Complexity O(N^2) for worst and average case.
-//O(N)for best case.//Time Complexity is same for both but iterative take less memory space compared to recurssive one.
+//O(N)for best case.//Time Complexity is same for both but iterative take less memory space compared to recursive one.
 
 //Recursion
 #include <stdio.h>
