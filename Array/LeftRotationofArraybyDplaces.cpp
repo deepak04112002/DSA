@@ -60,3 +60,34 @@ public:
         nums=ans;
     }
 };
+//Can also be done by space complexity O(1)//Time-O(2n)
+#include <bits/stdc++.h>
+using namespace std;
+class Solution{   
+public:
+    void leftRotate(int arr[], int n, int d) {
+        reverse(arr,arr+d);
+        reverse(arr+d,arr+n);
+        reverse(arr,arr+n);
+    }
+};
+int main() {
+    int t;
+    cin >> t;
+    while (t--) {
+        int n, d;
+        cin >> n;
+        int arr[n];
+        for (int i = 0; i < n; i++) {
+            cin >> arr[i];
+        }
+        cin >> d;
+        Solution ob;
+        ob.leftRotate(arr, n, d);
+        for (int i = 0; i < n; i++) {
+            cout << arr[i] << " ";
+        }
+        cout << "\n";
+    }
+    return 0;
+}
