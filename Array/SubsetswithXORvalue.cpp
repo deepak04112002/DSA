@@ -39,3 +39,20 @@ int main()
     }
     return 0; 
 }
+//codestudio//optimal solution//time-O(nlogn)
+//space-O(n)
+#include<bits/stdc++.h>
+int subarraysWithSumK(vector < int > a, int b) {
+    int cnt=0;
+    int xr=0;
+    map<int,int>mp;
+    mp[xr]++;
+    for(int i=0;i<a.size();i++){
+        xr=xr^a[i];
+        
+        int x=xr^b;
+        cnt+=mp[x];
+        mp[xr]++;
+    }
+    return cnt;
+}
