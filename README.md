@@ -4,4 +4,5 @@
 3.Basic Maths</br>
 4.Recursion</br>
 4.Sorting</br>
-5.Array
+5.Array</br>
+6.Binary Search
