@@ -5,4 +5,5 @@
 4.Recursion</br>
 4.Sorting</br>
 5.Array</br>
-6.Binary Search
+6.Binary Search</br>
+7.Strings
