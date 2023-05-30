@@ -6,4 +6,5 @@
 4.Sorting</br>
 5.Array</br>
 6.Binary Search</br>
-7.Strings
+7.Strings</br>
+8.Linked List
