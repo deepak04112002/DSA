@@ -7,4 +7,5 @@
 5.Array</br>
 6.Binary Search</br>
 7.Strings</br>
-8.Linked List
+8.Linked List</br>
+9.Recursion(patternWise)
