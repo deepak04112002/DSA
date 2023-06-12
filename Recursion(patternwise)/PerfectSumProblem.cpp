@@ -7,7 +7,7 @@ int count(int arr[],int n,int sum,int ind,int s){
 	        else return 0; 
 	    }
 	    s+=arr[ind];
-	    s%=mod;
+	    s%=mod;//1000000007
 	    int l=count(arr,n,sum,ind+1,s);
 	    s-=arr[ind];
 	    s%=mod;
